@@ -1,0 +1,214 @@
+/* BANNER APP start */
+.okrent-banner-app {
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+@media (max-width: 991px) {
+  .okrent-banner-app .container {
+    margin: 0;
+    padding: 0px;
+    max-width: 100%;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container {
+  height: 400px;
+  border-radius: 8px;
+  background-image: url("../assets/banner-app-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 991px) {
+  .okrent-banner-app .container .okrent-banner-app-container {
+    border-radius: 0px;
+    height: 431px;
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container {
+    height: 597px;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info {
+  padding-top: 80px;
+  padding-left: 55px;
+  display: grid;
+  grid-template-columns: 135px auto;
+  grid-template-rows: min-content min-content;
+  grid-column-gap: 30px;
+  grid-row-gap: 24px;
+}
+@media (max-width: 1399px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info {
+    padding-top: 59px;
+    padding-left: 41px;
+  }
+}
+@media (max-width: 1199px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info {
+    grid-row-gap: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info {
+    padding-top: 42px;
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-qr {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+@media (max-width: 1199px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-qr {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-qr {
+    display: none;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-content {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+@media (max-width: 1199px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-content {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-content .banner-text h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-content .banner-text p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+@media (max-width: 1199px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 376px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button {
+  display: inline-block;
+  width: 145px;
+  height: 48px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button:last-child {
+  margin-right: 0px;
+}
+@media (max-width: 1199px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button {
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button {
+    margin-right: 16px;
+    margin-bottom: 0px;
+  }
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button:last-child {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 376px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button {
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .banner-button:last-child {
+    margin-bottom: 0px;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .google-play-button {
+  background-image: url("../assets/ico-google-play.png");
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-info .banner-buttons-wrapper .app-store-button {
+  background-image: url("../assets/ico-app-store.png");
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+.okrent-banner-app .container .okrent-banner-app-container .banner-img img {
+  position: relative;
+  top: -100px;
+}
+@media (max-width: 991px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-img img {
+    width: 505px;
+    top: -50px;
+  }
+}
+@media (max-width: 858px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-img img {
+    width: 375px;
+    top: 8px;
+  }
+}
+@media (max-width: 728px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-img img {
+    left: calc((100% - 375px) / 2);
+  }
+}
+@media (max-width: 376px) {
+  .okrent-banner-app .container .okrent-banner-app-container .banner-img img {
+    width: 250px;
+    left: calc((100% - 250px) / 2);
+  }
+}
+
+/* BANNER APP end *//*# sourceMappingURL=styles.css.map */
